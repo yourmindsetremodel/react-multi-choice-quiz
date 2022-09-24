@@ -40,7 +40,7 @@ class App extends Component {
     // While there remain elements to shuffle...
     while (0 !== currentIndex) {
       // Pick a remaining element...
-      randomIndex = Math.floor(Math.random() * currentIndex);
+      randomIndex = currentIndex;
       currentIndex -= 1;
 
       // And swap it with the current element.
@@ -124,7 +124,6 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>React Quiz</h2>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
