@@ -10,6 +10,17 @@
   text-align: center;
 }
 
+.App-center {
+  position: relative;
+  z-index: 2;
+}
+
+.Backdrop {
+  src: "../img/mask1.png";
+  position: absolute;
+  z-index: 1;
+}
+
 .App-intro {
   font-size: large;
 }
