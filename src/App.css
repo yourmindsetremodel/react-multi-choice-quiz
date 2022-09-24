@@ -16,7 +16,7 @@
 }
 
 .Backdrop {
-  src: "../img/mask1.png";
+  src: "../img/mask1.2.png";
   position: absolute;
   z-index: 1;
 }
