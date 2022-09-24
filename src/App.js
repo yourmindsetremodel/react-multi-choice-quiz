@@ -3,7 +3,7 @@ import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
 import logo from './svg/logo.svg';
-import mask1_2 from './svg/mask1_2.svg';
+import mask from './png/mask1_2.png';
 import './App.css';
 
 class App extends Component {
@@ -113,7 +113,7 @@ class App extends Component {
         <div className="App-center">
         {this.state.result ? this.renderResult() : this.renderQuiz()}
         </div>
-        <img src={mask1_2} className="Backdrop" alt="mask1_2"/>
+        <img src={mask} className="Backdrop" alt="mask"/>
       </div>
     );
   }
