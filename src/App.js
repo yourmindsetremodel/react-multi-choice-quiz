@@ -112,7 +112,7 @@ class App extends Component {
         <div className="App-center">
         {this.state.result ? this.renderResult() : this.renderQuiz()}
         </div>
-        <img className="Backdrop">
+        <img className="Backdrop"/>
       </div>
     );
   }
