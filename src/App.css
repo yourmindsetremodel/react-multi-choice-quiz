@@ -4,7 +4,7 @@
   animation: spin infinite 200s linear;
   height: 160px;
   top: 100px;
-  left: calc(screen.width / 2);
+  left: 50%;
 }
 
 .App-header {
@@ -19,8 +19,8 @@
 .App-center {
   position: absolute;
   z-index: 2;
-  top: calc((screen.height / 2)+100px);
-  left: calc(screen.width / 2);
+  top: calc(50%+100px);
+  left: 50%;
 }
 
 .Backdrop {
@@ -28,8 +28,8 @@
   z-index: 1;
   top: 0px;
   left: 0px;
-  height: screen.height;
-  width: screen.width;
+  height: 100%;
+  width: 100%;
 }
 
 .App-intro {
