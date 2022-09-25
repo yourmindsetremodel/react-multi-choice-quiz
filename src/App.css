@@ -1,11 +1,12 @@
 .App-logo {
   position: absolute;
   z-index: 4;
-  animation: spin infinite 200s linear;
+  animation: spin infinite 20s linear;
   height: 160px;
   margin-left: auto;
   margin-right: auto;
   top: 100px;
+  left: 47%;
 }
 
 .App-header {
@@ -51,6 +52,11 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    from {
+      transform: rotate(20deg);
+    }
+    to {
+      transform: rotate(20deg);
+    }
   }
 }
