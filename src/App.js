@@ -3,7 +3,7 @@ import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
 import logo from './svg/logo.svg';
-import mask from './png/mask1_2.png';
+import mask from './png/mask1_4.png';
 import './App.css';
 
 class App extends Component {
