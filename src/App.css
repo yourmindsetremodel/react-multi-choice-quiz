@@ -11,7 +11,7 @@
 .App-header {
   position: absolute;
   z-index: 3;
-  background-color: url("./svg/mask1_2.png") repeat-x 0 0 #b8a69a;
+  background-color: url("./png/mask1_2.png") repeat-x 0 0 #b8a69a;
   padding: 20px;
   top: 0px;
   left: 0px;
