@@ -3,8 +3,9 @@
   z-index: 4;
   animation: spin infinite 200s linear;
   height: 160px;
+  margin-left: auto;
+  margin-right: auto;
   top: 100px;
-  left: 50%;
 }
 
 .App-header {
@@ -14,18 +15,24 @@
   padding: 20px;
   top: 0px;
   left: 0px;
+  height: 33%;
+  width: 100%;
+  text-align: center;
 }
 
 .App-center {
   position: absolute;
   z-index: 2;
-  top: calc(50%+100px);
-  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 60%;
 }
 
 .Backdrop {
   position: absolute;
   z-index: 1;
+  opacity: 0.5;
+  background-color: #b8a69a;
   top: 0px;
   left: 0px;
   height: 100%;
